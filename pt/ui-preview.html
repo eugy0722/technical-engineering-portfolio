@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>UI Components Preview | Technical Engineering</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/reset.css">
+  <link rel="stylesheet" href="../assets/css/typography.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container site-header__container">
+
+      <a href="index.html" class="site-logo">
+        <span class="site-logo__text">Technical Engineering</span>
+      </a>
+
+      <nav aria-label="Navegação principal">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Início</a></li>
+          <li><a class="nav-link" href="projects.html">Projectos</a></li>
+          <li><a class="nav-link" href="blog.html">Blog</a></li>
+          <li><a class="nav-link" href="contact.html">Contacto</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Buttons -->
+    <section class="section">
+      <div class="container stack">
+        <h1>UI Components Preview</h1>
+
+        <div class="cluster">
+          <a href="#" class="button button--primary">
+            Explorar projectos
+          </a>
+
+          <a href="#" class="button button--secondary">
+            Descarregar CV
+          </a>
+
+          <a href="#" class="button button--text">
+            Saber mais
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Badges -->
+    <section class="section">
+      <div class="container stack">
+        <h2>Technical Badges</h2>
+
+        <div class="cluster">
+          <span class="badge badge--blue">Networking</span>
+          <span class="badge">Linux</span>
+          <span class="badge">Python</span>
+          <span class="badge badge--status">In Progress</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section">
+      <div class="container stack">
+        <h2>Project Cards</h2>
+
+        <div class="grid grid--3">
+
+          <article class="project-card">
+            <span class="project-card__category">
+              Networking
+            </span>
+
+            <h3 class="project-card__title">
+              Super-Lab Ethernet
+            </h3>
+
+            <p class="project-card__description">
+              Laboratory project focused on network
+              redundancy, routing and switching.
+            </p>
+
+            <div class="project-card__technologies">
+              <span class="badge">HSRP</span>
+              <span class="badge">VRRP</span>
+              <span class="badge">OSPF</span>
+            </div>
+
+            <div class="project-card__footer">
+              <span class="badge badge--status">In Progress</span>
+              <a href="projects/super-lab-ethernet.html"
+                 class="button button--text">
+                Ver projecto →
+              </a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Articles -->
+    <section class="section">
+      <div class="container stack">
+        <h2>Article Cards</h2>
+
+        <div class="grid grid--3">
+          <article class="article-card">
+
+            <div class="article-card__meta">
+              <span>Networking</span>
+              <span>Technical Article</span>
+            </div>
+
+            <h3 class="article-card__title">
+              Understanding OSPF
+            </h3>
+
+            <p class="article-card__description">
+              An introduction to OSPF routing
+              architecture and operation.
+            </p>
+
+            <a href="blog.html" class="button button--text">
+              Ler artigo →
+            </a>
+
+          </article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container site-footer__container">
+      <p class="site-footer__text">
+        Technical Engineering by Eugênio Kaxinga
+      </p>
+
+      <div class="site-footer__links">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="contact.html">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

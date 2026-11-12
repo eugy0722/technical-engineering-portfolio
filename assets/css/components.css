@@ -1,0 +1,377 @@
+
+/* ========================================
+   TECHNICAL ENGINEERING
+   UI COMPONENTS
+======================================== */
+
+/* ----------------------------------------
+   1. HEADER
+---------------------------------------- */
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-index-header);
+
+  width: 100%;
+  background: var(--color-white);
+  border-bottom: 1px solid var(--color-border);
+
+  transition: var(--transition-normal);
+}
+
+.site-header__container {
+  min-height: var(--header-height);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-6);
+}
+
+.site-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+}
+
+.site-logo__text {
+  font-size: var(--font-size-lg);
+}
+
+/* ----------------------------------------
+   2. NAVIGATION
+---------------------------------------- */
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: var(--space-6);
+}
+
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+
+  padding-block: var(--space-2);
+
+  color: var(--color-text);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+
+  transition: var(--transition-fast);
+}
+
+.nav-link:hover,
+.nav-link[aria-current="page"] {
+  color: var(--color-secondary);
+}
+
+.nav-link:focus-visible {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: 4px;
+}
+
+/* ----------------------------------------
+   3. BUTTONS
+---------------------------------------- */
+
+.button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-2);
+
+  min-height: 44px;
+  padding: var(--space-3) var(--space-6);
+
+  border: 1px solid transparent;
+  border-radius: var(--radius-md);
+
+  font-family: var(--font-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.button--primary {
+  background: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.button--primary:hover {
+  filter: brightness(0.92);
+}
+
+.button--secondary {
+  background: transparent;
+  color: var(--color-primary);
+  border-color: var(--color-border);
+}
+
+.button--secondary:hover {
+  background: var(--color-background);
+  border-color: var(--color-secondary);
+}
+
+.button--text {
+  min-height: auto;
+  padding: var(--space-2) 0;
+
+  background: transparent;
+  color: var(--color-secondary);
+}
+
+.button:focus-visible {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: 3px;
+}
+
+.button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ----------------------------------------
+   4. PROJECT CARD
+---------------------------------------- */
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+
+  height: 100%;
+  padding: var(--space-6);
+
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+
+  transition: var(--transition-normal);
+}
+
+.project-card:hover {
+  border-color: var(--color-secondary);
+  box-shadow: var(--shadow-sm);
+}
+
+.project-card__category {
+  color: var(--color-secondary);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.project-card__title {
+  font-size: var(--font-size-xl);
+  color: var(--color-primary);
+}
+
+.project-card__description {
+  color: var(--color-muted);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-relaxed);
+}
+
+.project-card__technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.project-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+
+  margin-top: auto;
+  padding-top: var(--space-4);
+
+  border-top: 1px solid var(--color-border);
+}
+
+/* ----------------------------------------
+   5. ARTICLE CARD
+---------------------------------------- */
+
+.article-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+
+  height: 100%;
+  padding: var(--space-5);
+
+  background: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+
+  transition: var(--transition-normal);
+}
+
+.article-card:hover {
+  border-color: var(--color-secondary);
+}
+
+.article-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+
+  color: var(--color-muted);
+  font-size: var(--font-size-xs);
+}
+
+.article-card__title {
+  font-size: var(--font-size-lg);
+  color: var(--color-primary);
+}
+
+.article-card__description {
+  color: var(--color-muted);
+  font-size: var(--font-size-sm);
+}
+
+/* ----------------------------------------
+   6. TECHNICAL BADGE
+---------------------------------------- */
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+
+  padding: var(--space-1) var(--space-3);
+
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+
+  background: var(--color-background);
+  color: var(--color-text);
+
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+}
+
+.badge--blue {
+  color: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+.badge--status {
+  background: var(--color-background);
+  color: var(--color-muted);
+}
+
+/* ----------------------------------------
+   7. FOOTER
+---------------------------------------- */
+
+.site-footer {
+  padding-block: var(--space-12);
+
+  background: var(--color-primary);
+  color: var(--color-white);
+}
+
+.site-footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-6);
+}
+
+.site-footer__text {
+  color: var(--color-white);
+  font-size: var(--font-size-sm);
+}
+
+.site-footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.site-footer__links a {
+  color: var(--color-white);
+  font-size: var(--font-size-sm);
+}
+
+/* ----------------------------------------
+   8. FORM ELEMENTS
+---------------------------------------- */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.form-label {
+  color: var(--color-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+}
+
+.form-control {
+  width: 100%;
+  min-height: 44px;
+  padding: var(--space-3);
+
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+
+  background: var(--color-white);
+  color: var(--color-text);
+}
+
+.form-control:focus {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: 2px;
+}
+
+.form-control::placeholder {
+  color: var(--color-muted);
+}
+
+textarea.form-control {
+  min-height: 140px;
+  resize: vertical;
+}
+
+/* ----------------------------------------
+   9. RESPONSIVE COMPONENTS
+---------------------------------------- */
+
+@media (max-width: 639px) {
+  .site-header__container {
+    gap: var(--space-3);
+  }
+
+  .nav-list {
+    gap: var(--space-3);
+  }
+
+  .site-logo__text {
+    font-size: var(--font-size-base);
+  }
+
+  .project-card,
+  .article-card {
+    padding: var(--space-4);
+  }
+
+  .site-footer__container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
