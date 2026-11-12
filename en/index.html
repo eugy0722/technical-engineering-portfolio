@@ -4,20 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Technical Engineering</title>
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS Foundation -->
+    <link rel="stylesheet" href="../assets/css/tokens.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/typography.css">
+    <link rel="stylesheet" href="../assets/css/layout.css">
+
+
 </head>
 <body>
-    <main>
+    <main style="
+                max-width: var(--container-max-width);
+                margin: auto;
+                padding: var(--space-8);
+                color: var(--color-text);
+                font-family: var(--font-primary);
+                "
+    >
 
 
 
-        <h1>Technical Engineering</h1>
+        <h1 style="
+            color: var(--color-primary);
+            margin-bottom: var(--space-4);
+            "
+        >
+          Technical Engineering
+        </h1>
 
         <p>Profissional portfolio by Eugênio Kaxinga</p>
 
         <p>English version</p>
 
-        <a href="../index.html">Change language</a>
+        <a href="../pt/index.html">Change language</a>
 
+
+<section class="section">
+  <div class="container">
+
+    <header class="section__header stack">
+      <h2>Technical Focus</h2>
+      <p class="text-muted">
+        Areas of technical development and practice.
+      </p>
+    </header>
+
+    <div class="grid grid--3">
+
+      <article class="stack">
+        <h3>Networking</h3>
+        <p>Routing, Switching and Network Design.</p>
+      </article>
+
+      <article class="stack">
+        <h3>Linux</h3>
+        <p>System Administration and Permissions.</p>
+      </article>
+
+      <article class="stack">
+        <h3>Automation</h3>
+        <p>Python and Network Programmability.</p>
+      </article>
+
+    </div>
+  </div>
+</section>
 
 
 

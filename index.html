@@ -83,27 +83,46 @@
             font-size: 13px;
         }
 
-        @media (max-width: 480px) {
-            .language-selector {
-                padding: 36px 26px;
-            }
-
-            .language-options {
-                flex-direction: column;
-            }
-
-            .language-link {
-                width: 100%;
-            }
+        
+        @media (max-width: 639px) {
+          .section {
+            padding-block: var(--space-8);
+          }
+      
+          .grid {
+            grid-template-columns: repeat(
+              var(--grid-columns-mobile),
+              minmax(0, 1fr)
+            );
+          }
+      
+          .grid--2,
+          .grid--3,
+          .grid--4 {
+            grid-template-columns: 1fr;
+          }
+      
+          .container {
+            width: min(
+              calc(100% - 2 * var(--space-4)),
+              var(--container-max-width)
+            );
+          }
         }
+        
     </style>
     
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect"
-          href="https://fonts.gstatic.com"
-          crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
-          rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- CSS Foundation -->
+    <link rel="stylesheet" href="assets/css/tokens.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/typography.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
+
 </head>
 <body>
     <main class="language-selector">

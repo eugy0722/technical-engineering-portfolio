@@ -1,0 +1,124 @@
+
+/* ========================================
+   TECHNICAL ENGINEERING
+   TYPOGRAPHY FOUNDATION
+======================================== */
+
+/* Global typography */
+body {
+  font-family: var(--font-primary);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-normal);
+
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-bold);
+  line-height: var(--line-height-tight);
+  color: var(--color-primary);
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--font-size-5xl);
+}
+
+h2 {
+  font-size: var(--font-size-4xl);
+}
+
+h3 {
+  font-size: var(--font-size-2xl);
+}
+
+h4 {
+  font-size: var(--font-size-xl);
+}
+
+h5 {
+  font-size: var(--font-size-lg);
+}
+
+h6 {
+  font-size: var(--font-size-base);
+}
+
+/* Paragraphs */
+p {
+  line-height: var(--line-height-relaxed);
+  color: var(--color-text);
+}
+
+/* Secondary text */
+.text-muted {
+  color: var(--color-muted);
+}
+
+/* Links */
+a {
+  color: var(--color-secondary);
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus-visible {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: 4px;
+}
+
+/* Inline technical content */
+code,
+pre,
+kbd,
+samp {
+  font-family: var(--font-monospace);
+}
+
+code {
+  font-size: 0.9em;
+}
+
+/* Code blocks */
+pre {
+  overflow-x: auto;
+  line-height: var(--line-height-normal);
+}
+
+/* Strong text */
+strong,
+b {
+  font-weight: var(--font-weight-bold);
+}
+
+/* Small text */
+small {
+  font-size: var(--font-size-sm);
+}
+
+/* Responsive typography */
+@media (max-width: 639px) {
+  h1 {
+    font-size: var(--font-size-4xl);
+  }
+
+  h2 {
+    font-size: var(--font-size-3xl);
+  }
+
+  h3 {
+    font-size: var(--font-size-xl);
+  }
+}
