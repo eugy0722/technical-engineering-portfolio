@@ -734,3 +734,64 @@ body {
     padding: 11px 18px;
   }
 }
+/* =========================================
+   CONTENT CARDS — SPACING
+========================================= */
+
+.focus-card,
+.project-card,
+.article-card {
+  box-sizing: border-box;
+  min-width: 0;
+  width: 100%;
+  padding: 28px;
+  border-radius: 8px;
+  border: 1px solid #DCE3EB;
+  background-color: #FFFFFF;
+}
+
+.focus-card h3,
+.project-card h3,
+.article-card h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  line-height: 1.35;
+}
+
+.focus-card p,
+.project-card p,
+.article-card p {
+  margin-bottom: 14px;
+  line-height: 1.7;
+}
+
+.focus-card ul,
+.focus-card ol {
+  padding-left: 22px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.focus-card li {
+  padding-left: 4px;
+  margin-bottom: 12px;
+  line-height: 1.65;
+}
+
+.focus-card li:last-child {
+  margin-bottom: 0;
+}
+
+.focus-card hr {
+  margin-block: 24px;
+  border: 0;
+  border-top: 1px solid #DCE3EB;
+}
+
+@media (max-width: 639px) {
+  .focus-card,
+  .project-card,
+  .article-card {
+    padding: 20px;
+  }
+}
