@@ -1,0 +1,17 @@
+# Operating system
+.DS_Store
+Thumbs.db
+
+script-mkdir.sh
+script-touch.sh
+
+# Editors
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+
+# Dependencies
+node_modules/
