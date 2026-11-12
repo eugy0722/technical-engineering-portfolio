@@ -1,96 +1,343 @@
+
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio | Technical Engineering</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="../assets/css/tokens.css">
+  <meta name="description"
+        content="Portfólio técnico de Eugênio Kaxinga, estudante de Engenharia de Telecomunicações focado em redes, infraestrutura TI, Linux e automação.">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
-    
-    <!-- CSS Foundation -->
-    <link rel="stylesheet" href="../assets/css/tokens.css">
-    <link rel="stylesheet" href="../assets/css/reset.css">
-    <link rel="stylesheet" href="../assets/css/typography.css">
-    <link rel="stylesheet" href="../assets/css/layout.css">
+  <meta name="author" content="Eugênio Kaxinga">
 
+  <title>Technical Engineering | Eugênio Kaxinga</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/reset.css">
+  <link rel="stylesheet" href="../assets/css/typography.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
 </head>
+
 <body>
-    <main style="
-                max-width: var(--container-max-width);
-                margin: auto;
-                padding: var(--space-8);
-                color: var(--color-text);
-                font-family: var(--font-primary);
-                "
-    >
 
+<header class="site-header">
+  <div class="container site-header__container">
 
+    <a href="index.html" class="site-logo">
+      <span class="site-logo__text">Technical Engineering</span>
+    </a>
 
-        <h1 style="
-            color: var(--color-primary);
-            margin-bottom: var(--space-4);
-            "
-        >
-          Technical Engineering
+    <nav aria-label="Navegação principal">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="index.html" aria-current="page">Início</a></li>
+        <li><a class="nav-link" href="about.html">Sobre</a></li>
+        <li><a class="nav-link" href="skills.html">Competências</a></li>
+        <li><a class="nav-link" href="projects.html">Projectos</a></li>
+        <li><a class="nav-link" href="certifications.html">Certificações</a></li>
+        <li><a class="nav-link" href="blog.html">Blog</a></li>
+        <li><a class="nav-link" href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <a class="nav-link" href="../en/index.html" lang="en">
+      EN
+    </a>
+
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__content">
+
+        <p class="hero__eyebrow">
+          Portfólio Técnico · Engenharia
+        </p>
+
+        <h1 class="hero__title">
+          Aspiring Network &amp; Infrastructure Engineer
         </h1>
 
-        <p>Portfólio Profissional de Eugênio Kaxinga</p>
+        <p class="hero__description">
+          Estudante de Engenharia de Telecomunicações,
+          focado em Redes de Computadores, Infraestrutura
+          de TI, Administração Linux e Automação de Redes.
+        </p>
 
-        <p>Versão portuguesa</p>
+        <p class="hero__tagline">
+          Learn. Build. Document. Engineer.
+        </p>
 
-        <a href="../en/index.html">Alterar idioma</a>
+        <div class="hero__actions">
+          <a href="projects.html" class="button button--primary">
+            Explorar projectos
+          </a>
 
+          <a href="about.html" class="button button--secondary">
+            Conhecer o perfil
+          </a>
+        </div>
 
-<section class="section">
-  <div class="container">
+      </div>
+    </div>
+  </section>
 
-    <header class="section__header stack">
-      <h2>Foco Profissional</h2>
-      <p class="text-muted">
-        Áreas técnicas em desenvolvimento e prática.
-      </p>
-    </header>
+  <!-- FEATURED PROJECTS -->
+  <section class="section">
+    <div class="container">
 
-    <div class="grid grid--3">
+      <header class="section-heading">
+        <p class="hero__eyebrow">Trabalho técnico</p>
+        <h2>Projectos em destaque</h2>
+        <p>
+          Laboratórios, implementações e estudos técnicos
+          que documentam a aplicação prática do conhecimento.
+        </p>
+      </header>
 
-      <article class="stack">
-        <h3>Redes de comunicação</h3>
-        <p>Roteamento, Comutação e Design de Redes.</p>
-      </article>
+      <div class="grid grid--2">
 
-      <article class="stack">
-        <h3>Linux</h3>
-        <p>Administração de Sistemas e Permissões.</p>
-      </article>
+        <article class="project-card">
+          <span class="project-card__category">Networking</span>
 
-      <article class="stack">
-        <h3>Automação</h3>
-        <p>Python e Redes Programáveis.</p>
-      </article>
+          <h3 class="project-card__title">
+            Super-Lab Ethernet
+          </h3>
+
+          <p class="project-card__description">
+            Laboratório de expansão e implementação de
+            redundância numa infraestrutura Ethernet,
+            com foco em Routing, Switching e alta disponibilidade.
+          </p>
+
+          <div class="project-card__technologies">
+            <span class="badge">VLAN</span>
+            <span class="badge">HSRP</span>
+            <span class="badge">VRRP</span>
+            <span class="badge">OSPF</span>
+            <span class="badge">EtherChannel</span>
+          </div>
+
+          <div class="project-card__footer">
+            <span class="badge badge--status">Em desenvolvimento</span>
+            <a href="projects.html" class="button button--text">
+              Ver projecto →
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <span class="project-card__category">Linux</span>
+
+          <h3 class="project-card__title">
+            Linux Permissions
+          </h3>
+
+          <p class="project-card__description">
+            Estudo prático das permissões POSIX,
+            controlo de acesso e análise das permissões
+            efectivas em sistemas Linux.
+          </p>
+
+          <div class="project-card__technologies">
+            <span class="badge">Linux</span>
+            <span class="badge">POSIX</span>
+            <span class="badge">CLI</span>
+          </div>
+
+          <div class="project-card__footer">
+            <span class="badge badge--status">Em desenvolvimento</span>
+            <a href="projects.html" class="button button--text">
+              Ver projecto →
+            </a>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="hero__actions">
+        <a href="projects.html" class="button button--secondary">
+          Todos os projectos
+        </a>
+      </div>
 
     </div>
+  </section>
+
+  <!-- TECHNICAL FOCUS -->
+  <section class="section">
+    <div class="container">
+
+      <header class="section-heading">
+        <p class="hero__eyebrow">Áreas de interesse</p>
+        <h2>Foco técnico</h2>
+        <p>
+          Áreas de estudo, prática e desenvolvimento profissional.
+        </p>
+      </header>
+
+      <div class="grid grid--2">
+
+        <article class="focus-card">
+          <h3>Networking &amp; Infrastructure</h3>
+          <p>
+            TCP/IP, Routing &amp; Switching, VLAN,
+            OSPF, IPv4/IPv6, redundância e troubleshooting.
+          </p>
+        </article>
+
+        <article class="focus-card">
+          <h3>Systems Administration</h3>
+          <p>
+            Administração Linux, permissões POSIX,
+            gestão de sistemas e resolução de problemas.
+          </p>
+        </article>
+
+        <article class="focus-card">
+          <h3>Automation &amp; Programmability</h3>
+          <p>
+            Python, Git, GitHub e desenvolvimento
+            progressivo de competências em automação de redes.
+          </p>
+        </article>
+
+        <article class="focus-card">
+          <h3>Engineering Practices</h3>
+          <p>
+            Documentação técnica, desenho de arquitecturas,
+            testes, validação e troubleshooting sistemático.
+          </p>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT PREVIEW -->
+  <section class="section">
+    <div class="container">
+
+      <div class="about-preview stack">
+        <p class="hero__eyebrow">Sobre o autor</p>
+
+        <h2>Conhecimento em construção. Engenharia na prática.</h2>
+
+        <p>
+          Sou estudante de Engenharia de Telecomunicações
+          na Universidade Católica de Angola, interessado
+          em redes de computadores, infraestrutura de TI
+          e tecnologias de comunicação.
+        </p>
+
+        <p>
+          Utilizo laboratórios técnicos, documentação e
+          aprendizagem contínua para desenvolver competências
+          e transformar conceitos em prática verificável.
+        </p>
+
+        <div class="hero__actions">
+          <a href="about.html" class="button button--secondary">
+            Mais sobre mim
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LATEST ARTICLES -->
+  <section class="section">
+    <div class="container">
+
+      <header class="section-heading">
+        <p class="hero__eyebrow">Partilha de conhecimento</p>
+        <h2>Artigos técnicos</h2>
+        <p>
+          Reflexões, explicações e documentação
+          sobre tecnologias e experiências de aprendizagem.
+        </p>
+      </header>
+
+      <div class="grid grid--2">
+
+        <article class="article-card">
+          <div class="article-card__meta">
+            <span>Networking</span>
+            <span>Estudo técnico</span>
+          </div>
+
+          <h3 class="article-card__title">
+            Routing e redundância em redes Ethernet
+          </h3>
+
+          <p class="article-card__description">
+            Conceitos e práticas relacionados com
+            a disponibilidade e o encaminhamento em redes.
+          </p>
+
+          <a href="blog.html" class="button button--text">
+            Explorar blog →
+          </a>
+        </article>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT CTA -->
+  <section class="section">
+    <div class="container">
+
+      <div class="connect-section stack">
+        <p class="hero__eyebrow">Vamos conectar</p>
+
+        <h2>Interessado em tecnologia e engenharia?</h2>
+
+        <p>
+          Estou aberto à partilha de conhecimento,
+          colaboração técnica e oportunidades de desenvolvimento.
+        </p>
+
+        <div class="hero__actions">
+          <a href="contact.html" class="button button--primary">
+            Entrar em contacto
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container site-footer__container">
+
+    <p class="site-footer__text">
+      Technical Engineering by Eugênio Kaxinga
+    </p>
+
+    <p class="site-footer__text">
+      Learn. Build. Document. Engineer.
+    </p>
+
+    <p class="site-footer__text">
+      © 2026 Technical Engineering
+    </p>
+
   </div>
-</section>
+</footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </main>
 </body>
 </html>

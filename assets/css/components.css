@@ -375,3 +375,116 @@ textarea.form-control {
     align-items: flex-start;
   }
 }
+
+
+/* ========================================
+   M04 — HOME PAGE
+======================================== */
+
+.hero {
+  padding-block: var(--space-16);
+  background: var(--color-background);
+}
+
+.hero__content {
+  max-width: 850px;
+}
+
+.hero__eyebrow {
+  color: var(--color-secondary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  max-width: 800px;
+  margin-top: var(--space-4);
+  font-size: clamp(2.25rem, 5vw, 3.5rem);
+}
+
+.hero__description {
+  max-width: 680px;
+  margin-top: var(--space-4);
+  color: var(--color-muted);
+  font-size: var(--font-size-lg);
+}
+
+.hero__tagline {
+  margin-top: var(--space-4);
+  color: var(--color-secondary);
+  font-weight: var(--font-weight-semibold);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+.section-heading {
+  max-width: 720px;
+  margin-bottom: var(--space-8);
+}
+
+.section-heading p {
+  margin-top: var(--space-3);
+  color: var(--color-muted);
+}
+
+.focus-card {
+  height: 100%;
+  padding: var(--space-5);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background: var(--color-white);
+}
+
+.focus-card h3 {
+  margin-bottom: var(--space-3);
+}
+
+.focus-card p {
+  color: var(--color-muted);
+  font-size: var(--font-size-sm);
+}
+
+.about-preview {
+  max-width: 780px;
+}
+
+.about-preview p + p {
+  margin-top: var(--space-3);
+}
+
+.connect-section {
+  padding: var(--space-8);
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+@media (max-width: 639px) {
+  .hero {
+    padding-block: var(--space-8);
+  }
+
+  .hero__description {
+    font-size: var(--font-size-base);
+  }
+
+  .connect-section {
+    padding: var(--space-5);
+  }
+
+  .site-header__container {
+    flex-wrap: wrap;
+    padding-block: var(--space-3);
+  }
+
+  .nav-list {
+    flex-wrap: wrap;
+  }
+}
