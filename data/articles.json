@@ -1,0 +1,54 @@
+
+[
+  {
+    "id": "inter-vlan-routing-troubleshooting",
+    "category": "networking",
+    "status": "draft",
+    "featured": true,
+    "technologies": [
+      "VLAN",
+      "Inter-VLAN Routing",
+      "OSPF",
+      "Cisco IOS"
+    ],
+    "title": {
+      "pt": "Troubleshooting de Comunicação entre VLANs",
+      "en": "Troubleshooting Inter-VLAN Communication"
+    },
+    "description": {
+      "pt": "Análise de problemas de conectividade entre redes VLAN, com foco no encaminhamento, gateways e validação da configuração numa infraestrutura de laboratório.",
+      "en": "An analysis of connectivity issues between VLANs, focusing on routing, gateways and configuration validation in a lab infrastructure."
+    },
+    "publishedAt": null,
+    "url": {
+      "pt": null,
+      "en": null
+    }
+  },
+  {
+    "id": "linux-posix-permissions",
+    "category": "linux",
+    "status": "draft",
+    "featured": true,
+    "technologies": [
+      "Linux",
+      "POSIX",
+      "chmod",
+      "chown",
+      "CLI"
+    ],
+    "title": {
+      "pt": "Fundamentos de Permissões POSIX em Linux",
+      "en": "Linux POSIX Permissions Fundamentals"
+    },
+    "description": {
+      "pt": "Exploração prática do modelo de permissões POSIX, incluindo utilizadores, grupos, propriedade e controlo de acesso a ficheiros e directórios.",
+      "en": "A practical exploration of the POSIX permissions model, including users, groups, ownership and access control for files and directories."
+    },
+    "publishedAt": null,
+    "url": {
+      "pt": null,
+      "en": null
+    }
+  }
+]
