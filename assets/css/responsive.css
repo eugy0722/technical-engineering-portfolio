@@ -1210,3 +1210,35 @@
     justify-content: center;
   }
 }
+
+/* Footer consistency - Blog, Contact and certifications */
+
+.blog-page .site-footer,
+.contact-page .site-footer {
+  background-color: var(--color-deep-navy, #142B46);
+  color: #FFFFFF;
+}
+
+.blog-page .site-footer p,
+.contact-page .site-footer p {
+  color: #FFFFFF;
+}
+
+.blog-page .site-footer a,
+.contact-page .site-footer a {
+  color: #FFFFFF;
+}
+
+.blog-page .site-footer a:hover,
+.contact-page .site-footer a:hover {
+  color: var(--color-engineering-blue, #2679B9);
+}
+
+.certifications-page .site-footer {
+  background-color: var(--color-deep-navy, #142B46);
+  color: #FFFFFF;
+}
+
+.certifications-page .site-footer p {
+  color: #FFFFFF;
+}
