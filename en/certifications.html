@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Professional certifications and technical training of Eugênio Kaxinga.">
+
+    <title>Certifications | Technical Engineering</title>
+
+    <link rel="stylesheet" href="../assets/css/tokens.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/typography.css">
+    <link rel="stylesheet" href="../assets/css/layout.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+
+    <script src="../assets/js/certifications.js" defer></script>
+</head>
+
+<body class="certifications-page">
+
+<header class="site-header">
+    <div class="container site-header__container">
+
+        <a href="index.html" class="site-logo">
+            Technical Engineering
+        </a>
+
+        <nav aria-label="Main navigation">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="certifications.html" class="nav-link active" aria-current="page">Certifications</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a href="../pt/certifications.html" class="language-link">
+            PT
+        </a>
+
+    </div>
+</header>
+
+<main>
+
+    <section class="certifications-hero section">
+        <div class="container">
+
+            <span class="hero__eyebrow">Professional Development</span>
+
+            <h1>Certifications & Technical Training</h1>
+
+            <p>
+                A record of professional certifications and technical training
+                completed throughout my learning journey in technology,
+                networking, systems and security.
+            </p>
+
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+
+            <div class="certifications-intro">
+                <h2>My Learning Journey</h2>
+
+                <p>
+                    I believe in continuous learning and the importance of
+                    consolidating knowledge through structured training
+                    and hands-on technical practice.
+                </p>
+            </div>
+
+            <div class="certifications-summary" id="certifications-summary">
+
+                <div class="summary-card">
+                    <span class="summary-number" id="total-certifications">—</span>
+                    <span>Displayed records</span>
+                </div>
+
+                <div class="summary-card">
+                    <span class="summary-number" id="total-training">—</span>
+                    <span>Completed training</span>
+                </div>
+
+                <div class="summary-card">
+                    <span class="summary-number" id="total-professional">—</span>
+                    <span>Professional certifications</span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Training & Certifications</h2>
+                <p>Browse records by category or issuing organization.</p>
+            </div>
+
+            <div class="certification-filters">
+
+                <div class="form-group">
+                    <label class="form-label" for="category-filter">
+                        Category
+                    </label>
+
+                    <select id="category-filter" class="form-control">
+                        <option value="all">All categories</option>
+                        <option value="professional-certification">
+                            Professional certifications
+                        </option>
+                        <option value="completed-training">
+                            Completed training
+                        </option>
+                        <option value="in-progress-training">
+                            In-progress training
+                        </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="issuer-filter">
+                        Issuing organization
+                    </label>
+
+                    <select id="issuer-filter" class="form-control">
+                        <option value="all">All organizations</option>
+                    </select>
+                </div>
+
+                <button
+                    type="button"
+                    class="button button--secondary"
+                    id="reset-filters">
+                    Reset filters
+                </button>
+
+            </div>
+
+            <p class="certifications-count" id="certifications-count"
+               aria-live="polite"></p>
+
+            <div
+                class="certifications-grid"
+                id="certifications-container"
+                aria-live="polite">
+
+                <p>Loading records...</p>
+
+            </div>
+
+            <div class="certifications-message" id="certifications-empty" hidden>
+                No records were found for the selected filters.
+            </div>
+
+            <div class="certifications-message certifications-message--error"
+                 id="certifications-error" hidden>
+                Unable to load records. Please try again later.
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>
+            © <span id="current-year"></span>
+            Technical Engineering by Eugênio Kaxinga.
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>

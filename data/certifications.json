@@ -1,0 +1,218 @@
+[
+  {
+    "id": "huawei-hcia-datacom",
+    "category": "professional-certification",
+    "status": "obtained",
+    "featured": true,
+    "name": {
+      "pt": "Huawei HCIA-Datacom",
+      "en": "Huawei HCIA-Datacom"
+    },
+    "issuer": "Huawei",
+    "date": "2028-05-15",
+    "credentialId": "01010390161810034692705852",
+    "verificationUrl": "https://e.huawei.com/en/talent/certification/verify?certId=01010390161810034692705852",
+    "description": {
+      "pt": "Certificação na área de redes e tecnologias de comunicação de dados.",
+      "en": "Certification focused on networking and data communication technologies."
+    }
+  },
+    {
+        "id": "huawei-hcia-security",
+        "category": "professional-certification",
+        "status": "obtained",
+        "featured": true,
+        "name": {
+        "pt": "Huawei HCIA-Security",
+        "en": "Huawei HCIA-Security"
+        },
+        "issuer": "Huawei",
+        "date": "2027-08-13",
+        "credentialId": "01010030161809646612487441",
+        "verificationUrl": "https://e.huawei.com/en/talent/certification/verify?certId=01010030161809646612487441",
+        "description": {
+        "pt": "Certificação na área de segurança de redes e sistemas.",
+        "en": "Certification focused on network and system security."
+        }
+    },
+    {
+        "id": "huawei-hcia-access",
+        "category": "professional-certification",
+        "status": "obtained",
+        "featured": true,
+        "name": {
+        "pt": "Huawei HCIA-Access",
+        "en": "Huawei HCIA-Access"
+        },
+        "issuer": "Huawei",
+        "date": "2027-08-08",
+        "credentialId": "01013521061809646411409",
+        "verificationUrl": "https://e.huawei.com/en/talent/certification/verify?certId=01013521061809646411409",
+        "description": {
+        "pt": "Certificação na área de acesso a redes e sistemas.",
+        "en": "Certification focused on network and system access."
+        }
+    },
+    {
+        "id": "FCF-Getting Started in Cybersecurity 3.0",
+        "category": "completed-training",
+        "status": "completed",
+        "featured": true,
+        "name": {
+        "pt": "FCF-Getting Started in Cybersecurity 3.0",
+        "en": "FCF-Getting Started in Cybersecurity 3.0"
+        },
+        "issuer": "Fortinet",
+        "date": "2025-05-08",
+        "credentialId": null,
+        "verificationUrl": null,
+        "description": {
+        "pt": "Certificação na área de computação em nuvem e tecnologias relacionadas.",
+        "en": "Certification focused on cloud computing and related technologies."
+        }
+    },
+     {
+    "id": "fcf-threat-landscape-3",
+    "category": "completed-training",
+    "status": "completed",
+    "featured": false,
+    "name": {
+      "pt": "FCF - Introduction to the Threat Landscape 3.0",
+      "en": "FCF - Introduction to the Threat Landscape 3.0"
+    },
+    "issuer": "Fortinet",
+    "date": "2025-08-09",
+    "credentialId": null,
+    "verificationUrl": null,
+    "description": {
+      "pt": "Formação sobre o panorama de ameaças cibernéticas e fundamentos de segurança.",
+      "en": "Training covering the cyber threat landscape and security fundamentals."
+    }
+  },
+  {
+    "id": "bootdev-learn-linux",
+    "category": "completed-training",
+    "status": "completed",
+    "featured": false,
+    "name": {
+      "pt": "Learn Linux",
+      "en": "Learn Linux"
+    },
+    "issuer": "Boot.dev",
+    "date": "2026-10-26",
+    "credentialId": "03eeb657-e934-4a37-a951-4ba5aa707c01",
+    "verificationUrl": null,
+    "description": {
+      "pt": "Formação em linha de comando Linux, shell scripting, gestão de ficheiros e segurança.",
+      "en": "Training in the Linux command line, shell scripting, file management, and security."
+    }
+  },
+  {
+    "id": "bootdev-introduction-python",
+    "category": "completed-training",
+    "status": "completed",
+    "featured": false,
+    "name": {
+      "pt": "Introduction to Python Course",
+      "en": "Introduction to Python Course"
+    },
+    "issuer": "Boot.dev",
+    "date": "2026-10-26",
+    "credentialId": "40d3bbde-2c27-4250-afba-075356fb09cc",
+    "verificationUrl": null,
+    "description": {
+      "pt": "Fundamentos de programação em Python, controlo de fluxo, estruturas de dados e depuração.",
+      "en": "Fundamentals of Python programming, control flow, data structures, and debugging."
+    }
+  },
+  {
+    "id": "cisco-it-essentials",
+    "category": "completed-training",
+    "status": "completed",
+    "featured": false,
+    "name": {
+      "pt": "IT Essentials",
+      "en": "IT Essentials"
+    },
+    "issuer": "Cisco Networking Academy",
+    "date": "2021-07-14",
+    "credentialId": null,
+    "verificationUrl": null,
+    "description": {
+      "pt": "Formação em hardware de computadores, sistemas operativos, redes e segurança básica.",
+      "en": "Training in computer hardware, operating systems, networking, and basic security."
+    }
+  },
+  {
+    "id": "santander-responsible-prompting",
+    "category": "completed-training",
+    "status": "completed",
+    "featured": false,
+    "name": {
+      "pt": "Responsible prompting: maximize AI in your business",
+      "en": "Responsible prompting: maximize AI in your business"
+    },
+    "issuer": "Santander Open Academy",
+    "date": "2025-09-07",
+    "credentialId": "OA-2025-0907001686610",
+    "verificationUrl": null,
+    "description": {
+      "pt": "Formação em engenharia de prompts responsável e utilização da inteligência artificial nos negócios.",
+      "en": "Training in responsible prompt engineering and the use of artificial intelligence in business."
+    }
+  },
+    {
+    "id": "cisco-ccnp-enterprise-advanced-routing",
+    "category": "completed-training",
+    "status": "completed",
+    "featured": false,
+    "name": {
+      "pt": "CCNP Enterprise: Advanced Routing",
+      "en": "CCNP Enterprise: Advanced Routing"
+    },
+    "issuer": "Cisco Networking Academy",
+    "date": "2026-09-29",
+    "credentialId": null,
+    "verificationUrl": null,
+    "description": {
+      "pt": "Formação avançada em tecnologias e protocolos de encaminhamento para redes empresariais, alinhada com os conteúdos CCNP Enterprise.",
+      "en": "Advanced training in routing technologies and protocols for enterprise networks, aligned with CCNP Enterprise topics."
+    }
+  },
+  {
+    "id": "cisco-introduction-cybersecurity",
+    "category": "completed-training",
+    "status": "completed",
+    "featured": false,
+    "name": {
+      "pt": "Introdução à Cibersegurança",
+      "en": "Introduction to Cybersecurity"
+    },
+    "issuer": "Cisco Networking Academy",
+    "date": "2024-09-29",
+    "credentialId": null,
+    "verificationUrl": null,
+    "description": {
+      "pt": "Formação sobre conceitos fundamentais de cibersegurança, ameaças digitais e protecção de dados.",
+      "en": "Training covering fundamental cybersecurity concepts, digital threats, and data protection."
+    }
+  },
+  {
+    "id": "cisco-ccna-switching-routing-wireless",
+    "category": "completed-training",
+    "status": "completed",
+    "featured": false,
+    "name": {
+      "pt": "CCNA: Switching, Routing, and Wireless Essentials",
+      "en": "CCNA: Switching, Routing, and Wireless Essentials"
+    },
+    "issuer": "Cisco Networking Academy",
+    "date": "2024-01-21",
+    "credentialId": null,
+    "verificationUrl": null,
+    "description": {
+      "pt": "Formação nos fundamentos de comutação, encaminhamento e tecnologias de redes sem fio.",
+      "en": "Training covering the fundamentals of switching, routing, and wireless networking technologies."
+    }
+  }
+]

@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Certificações profissionais e formação técnica de Eugênio Kaxinga.">
+
+    <title>Certificações | Technical Engineering</title>
+
+    <link rel="stylesheet" href="../assets/css/tokens.css">
+    <link rel="stylesheet" href="../assets/css/reset.css">
+    <link rel="stylesheet" href="../assets/css/typography.css">
+    <link rel="stylesheet" href="../assets/css/layout.css">
+    <link rel="stylesheet" href="../assets/css/components.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+
+    <script src="../assets/js/certifications.js" defer></script>
+</head>
+
+<body class="certifications-page">
+
+<header class="site-header">
+    <div class="container site-header__container">
+
+        <a href="index.html" class="site-logo">
+            Technical Engineering
+        </a>
+
+        <nav aria-label="Navegação principal">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">Sobre</a></li>
+                <li><a href="skills.html" class="nav-link">Competências</a></li>
+                <li><a href="projects.html" class="nav-link">Projectos</a></li>
+                <li><a href="certifications.html" class="nav-link active" aria-current="page">Certificações</a></li>
+                <li><a href="blog.html" class="nav-link">Blog</a></li>
+                <li><a href="contact.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <a href="../en/certifications.html" class="language-link">
+            EN
+        </a>
+
+    </div>
+</header>
+
+<main>
+
+    <section class="certifications-hero section">
+        <div class="container">
+
+            <span class="hero__eyebrow">Desenvolvimento profissional</span>
+
+            <h1>Certificações e Formação Técnica</h1>
+
+            <p>
+                Um registo das certificações profissionais e formações técnicas
+                realizadas ao longo do meu percurso de aprendizagem em tecnologia,
+                redes, sistemas e segurança.
+            </p>
+
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+
+            <div class="certifications-intro">
+                <h2>O meu percurso de aprendizagem</h2>
+
+                <p>
+                    Acredito na aprendizagem contínua e na importância de
+                    consolidar conhecimentos através de formação estruturada
+                    e prática técnica.
+                </p>
+            </div>
+
+            <div class="certifications-summary" id="certifications-summary">
+
+                <div class="summary-card">
+                    <span class="summary-number" id="total-certifications">—</span>
+                    <span>Registos apresentados</span>
+                </div>
+
+                <div class="summary-card">
+                    <span class="summary-number" id="total-training">—</span>
+                    <span>Formações concluídas</span>
+                </div>
+
+                <div class="summary-card">
+                    <span class="summary-number" id="total-professional">—</span>
+                    <span>Certificações profissionais</span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+
+            <div class="section-heading">
+                <h2>Formação e certificações</h2>
+                <p>Consulta os registos por categoria ou entidade emissora.</p>
+            </div>
+
+            <div class="certification-filters">
+
+                <div class="form-group">
+                    <label class="form-label" for="category-filter">
+                        Categoria
+                    </label>
+
+                    <select id="category-filter" class="form-control">
+                        <option value="all">Todas as categorias</option>
+                        <option value="professional-certification">
+                            Certificações profissionais
+                        </option>
+                        <option value="completed-training">
+                            Formações concluídas
+                        </option>
+                        <option value="in-progress-training">
+                            Formações em andamento
+                        </option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="issuer-filter">
+                        Entidade emissora
+                    </label>
+
+                    <select id="issuer-filter" class="form-control">
+                        <option value="all">Todas as entidades</option>
+                    </select>
+                </div>
+
+                <button
+                    type="button"
+                    class="button button--secondary"
+                    id="reset-filters">
+                    Limpar filtros
+                </button>
+
+            </div>
+
+            <p class="certifications-count" id="certifications-count"
+               aria-live="polite"></p>
+
+            <div
+                class="certifications-grid"
+                id="certifications-container"
+                aria-live="polite">
+
+                <p>A carregar registos...</p>
+
+            </div>
+
+            <div class="certifications-message" id="certifications-empty" hidden>
+                Não foram encontrados registos para os filtros seleccionados.
+            </div>
+
+            <div class="certifications-message certifications-message--error"
+                 id="certifications-error" hidden>
+                Não foi possível carregar os registos. Tenta novamente mais tarde.
+            </div>
+
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>
+            © <span id="current-year"></span>
+            Technical Engineering by Eugênio Kaxinga.
+        </p>
+    </div>
+</footer>
+
+</body>
+</html>
