@@ -266,3 +266,219 @@
     width: calc(100% - 48px);
   }
 }
+
+/* =========================================
+   PROJECTS PAGE
+========================================= */
+
+.projects-page .section > .container {
+  width: calc(100% - 48px);
+  max-width: 1200px;
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+.projects-page .section-heading {
+  max-width: 760px;
+  margin-bottom: 32px;
+}
+
+.projects-page .project-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: end;
+  gap: 20px;
+  padding: 24px;
+  margin-bottom: 24px;
+  background: #F3F6FA;
+  border: 1px solid #DCE3EB;
+  border-radius: 10px;
+}
+
+.projects-page .project-filters .form-group {
+  flex: 1 1 220px;
+  min-width: 0;
+  margin: 0;
+}
+
+.projects-page .project-filters .form-control {
+  width: 100%;
+  min-height: 44px;
+}
+
+.projects-page .projects-count {
+  margin-bottom: 24px;
+  color: #64748B;
+  font-size: 14px;
+}
+
+.projects-page #projects-container {
+  align-items: stretch;
+}
+
+.projects-page .project-card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  width: 100%;
+  height: 100%;
+  padding: 28px;
+  background: #FFFFFF;
+  border: 1px solid #DCE3EB;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.projects-page .project-card__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.projects-page .project-card__title {
+  margin: 0 0 14px;
+  color: #142B46;
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+.projects-page .project-card__description {
+  margin: 0 0 24px;
+  color: #253342;
+  line-height: 1.75;
+}
+
+.projects-page .project-card__technologies {
+  margin-top: auto;
+}
+
+.projects-page .project-card__label {
+  margin-bottom: 12px;
+  color: #64748B;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.projects-page .project-card__technologies .skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.projects-page .project-card__technologies .badge {
+  display: inline-block;
+  padding: 6px 9px;
+  background: #F3F6FA;
+  color: #253342;
+  border-radius: 4px;
+  font-family: "JetBrains Mono", monospace;
+  font-size: 11px;
+  line-height: 1.5;
+}
+
+.projects-page .project-status {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: #F3F6FA;
+  color: #253342;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.projects-page .project-status--in-progress {
+  background: #EAF3FA;
+  color: #205F91;
+}
+
+.projects-page .project-status--completed {
+  background: #EAF5EE;
+  color: #27633D;
+}
+
+.projects-page .project-status--planned {
+  background: #F3F6FA;
+  color: #64748B;
+}
+
+.projects-page .project-status--archived {
+  background: #ECEFF3;
+  color: #475569;
+}
+
+.projects-page .project-card__footer {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  padding-top: 16px;
+  border-top: 1px solid #DCE3EB;
+}
+
+.projects-page .project-card__availability {
+  color: #64748B;
+  font-size: 13px;
+}
+
+.projects-page .projects-empty,
+.projects-page .projects-error {
+  padding: 24px;
+  margin-top: 24px;
+  background: #F3F6FA;
+  border-radius: 8px;
+  color: #475569;
+}
+
+.projects-page .projects-error {
+  color: #9B3030;
+}
+
+/* Tablet */
+@media (max-width: 1023px) {
+  .projects-page .project-filters {
+    gap: 16px;
+  }
+
+  .projects-page .project-card {
+    padding: 24px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 639px) {
+  .projects-page .section > .container {
+    width: calc(100% - 32px);
+    max-width: 560px;
+  }
+
+  .projects-page .section {
+    padding-block: 36px;
+  }
+
+  .projects-page .project-filters {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 18px;
+    gap: 16px;
+  }
+
+  .projects-page .project-filters .form-group {
+    width: 100%;
+    flex-basis: auto;
+  }
+
+  .projects-page .project-filters .button {
+    width: 100%;
+  }
+
+  .projects-page .project-card {
+    padding: 22px;
+  }
+
+  .projects-page .project-card__title {
+    font-size: 20px;
+  }
+}

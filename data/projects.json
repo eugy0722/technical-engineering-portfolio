@@ -1,0 +1,56 @@
+
+[
+  {
+    "id": "super-lab-ethernet",
+    "category": "networking",
+    "status": "in-progress",
+    "featured": true,
+    "technologies": [
+      "Ethernet",
+      "VLAN",
+      "HSRP",
+      "VRRP",
+      "OSPF",
+      "STP",
+      "EtherChannel",
+      "PNetLab"
+    ],
+    "title": {
+      "pt": "Super-Lab Ethernet",
+      "en": "Super-Lab Ethernet"
+    },
+    "description": {
+      "pt": "Laboratório de redes dedicado à expansão e implementação de redundância numa infraestrutura Ethernet, com segmentação por VLAN, redundância de gateway e encaminhamento entre redes.",
+      "en": "A networking lab focused on expanding and implementing redundancy in an Ethernet infrastructure, using VLAN segmentation, gateway redundancy and inter-network routing."
+    },
+    "caseStudy": {
+      "pt": null,
+      "en": null
+    }
+  },
+  {
+    "id": "linux-permissions",
+    "category": "linux",
+    "status": "in-progress",
+    "featured": true,
+    "technologies": [
+      "Linux",
+      "POSIX",
+      "CLI",
+      "chmod",
+      "chown"
+    ],
+    "title": {
+      "pt": "Linux Permissions",
+      "en": "Linux Permissions"
+    },
+    "description": {
+      "pt": "Estudo prático de permissões POSIX em Linux, incluindo utilizadores, grupos, propriedade de ficheiros e controlo de acesso a ficheiros e directórios.",
+      "en": "A practical study of POSIX permissions in Linux, including users, groups, file ownership and access control for files and directories."
+    },
+    "caseStudy": {
+      "pt": null,
+      "en": null
+    }
+  }
+]

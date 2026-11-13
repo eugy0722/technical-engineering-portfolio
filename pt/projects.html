@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projectos técnicos de redes, infraestrutura, Linux e automação desenvolvidos por Eugênio Kaxinga.">
+  <title>Projectos | Technical Engineering</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../assets/css/tokens.css">
+  <link rel="stylesheet" href="../assets/css/reset.css">
+  <link rel="stylesheet" href="../assets/css/typography.css">
+  <link rel="stylesheet" href="../assets/css/layout.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+</head>
+
+<body class="projects-page">
+
+<header class="site-header">
+  <div class="container site-header__container">
+    <a href="index.html" class="site-logo">Technical Engineering</a>
+    <nav aria-label="Navegação principal">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="index.html">Início</a></li>
+        <li><a class="nav-link" href="about.html">Sobre</a></li>
+        <li><a class="nav-link" href="skills.html">Competências</a></li>
+        <li><a class="nav-link" href="projects.html" aria-current="page">Projectos</a></li>
+        <li><a class="nav-link" href="certifications.html">Certificações</a></li>
+        <li><a class="nav-link" href="blog.html">Blog</a></li>
+        <li><a class="nav-link" href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="section projects-intro">
+    <div class="container">
+      <div class="hero__content">
+        <p class="hero__eyebrow">ENGINEERING PORTFOLIO</p>
+        <h1 class="hero__title">Projectos Técnicos</h1>
+        <p class="hero__description">
+          Laboratórios, implementações e experiências práticas
+          que documentam a minha evolução em redes, infraestrutura
+          de TI, administração de sistemas e automação.
+        </p>
+        <p class="hero__tagline">Learn. Build. Document. Engineer.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+
+      <div class="section-heading">
+        <p class="hero__eyebrow">SELECTED WORK</p>
+        <h2>Explorar projectos</h2>
+        <p>
+          Consulta os projectos por área técnica ou estado
+          de desenvolvimento.
+        </p>
+      </div>
+
+      <div class="project-filters" aria-label="Filtros de projectos">
+
+        <div class="form-group">
+          <label class="form-label" for="category-filter">Categoria</label>
+          <select class="form-control" id="category-filter">
+            <option value="all">Todas as categorias</option>
+            <option value="networking">Networking</option>
+            <option value="linux">Linux</option>
+            <option value="automation">Automation</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="status-filter">Estado</label>
+          <select class="form-control" id="status-filter">
+            <option value="all">Todos os estados</option>
+            <option value="planned">Planeado</option>
+            <option value="in-progress">Em desenvolvimento</option>
+            <option value="completed">Concluído</option>
+            <option value="archived">Arquivado</option>
+          </select>
+        </div>
+
+        <button type="button" class="button button--secondary" id="reset-filters">
+          Limpar filtros
+        </button>
+
+      </div>
+
+      <p class="projects-count" id="projects-count" aria-live="polite">
+        A carregar projectos...
+      </p>
+
+      <div class="grid grid--2" id="projects-container" aria-live="polite">
+        <!-- Project cards generated from projects.json -->
+      </div>
+
+      <p class="projects-empty" id="projects-empty" hidden>
+        Não foram encontrados projectos para os filtros seleccionados.
+      </p>
+
+      <p class="projects-error" id="projects-error" hidden>
+        Não foi possível carregar os projectos. Actualiza a página ou tenta novamente mais tarde.
+      </p>
+
+    </div>
+  </section>
+
+  <section class="section connect-section">
+    <div class="container">
+      <h2>O conhecimento ganha valor quando é aplicado.</h2>
+      <p>
+        Cada projecto representa uma oportunidade para aprender,
+        testar conceitos e documentar soluções técnicas.
+      </p>
+      <a href="contact.html" class="button button--primary">
+        Entrar em contacto
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="site-footer__text">
+      © 2026 Technical Engineering by Eugênio Kaxinga.
+      Todos os direitos reservados.
+    </p>
+  </div>
+</footer>
+
+<script src="../assets/js/project-filters.js" defer></script>
+
+</body>
+</html>
