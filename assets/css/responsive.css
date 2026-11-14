@@ -1242,3 +1242,116 @@
 .certifications-page .site-footer p {
   color: #FFFFFF;
 }
+
+/* =========================================
+   M05.1 - CUSTOM 404 PAGE
+========================================= */
+
+.error-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.error-page .site-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error-page .language-link {
+  color: var(--color-engineering-blue, #2679B9);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.error-page .language-link:hover {
+  text-decoration: underline;
+}
+
+.error-main {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 24px;
+  background: var(--color-light-gray, #F3F6FA);
+}
+
+.error-content {
+  width: 100%;
+  max-width: 760px;
+  text-align: center;
+}
+
+.error-code {
+  display: block;
+  color: var(--color-engineering-blue, #2679B9);
+  font-size: clamp(5rem, 14vw, 9rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.07em;
+  margin-bottom: 20px;
+}
+
+.error-eyebrow {
+  color: var(--color-muted-gray, #64748B);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  margin-bottom: 16px;
+}
+
+.error-content h1 {
+  color: var(--color-deep-navy, #142B46);
+  font-size: clamp(1.8rem, 4vw, 2.7rem);
+  margin-bottom: 20px;
+}
+
+.error-description {
+  max-width: 580px;
+  margin: 0 auto;
+  color: var(--color-muted-gray, #64748B);
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.error-actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 32px;
+}
+
+.error-reference {
+  margin-top: 48px;
+  color: var(--color-muted-gray, #64748B);
+  font-family: var(--font-mono, monospace);
+  font-size: 0.75rem;
+}
+
+/* Mobile */
+@media (max-width: 639px) {
+  .error-main {
+    padding: 56px 20px;
+  }
+
+  .error-actions {
+    flex-direction: column;
+  }
+
+  .error-actions .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+.error-page .site-footer {
+  background-color: var(--color-deep-navy, #142B46);
+  color: #FFFFFF;
+}
+
+.error-page .site-footer p {
+  color: #FFFFFF;
+}
