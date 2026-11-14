@@ -5,13 +5,19 @@ Thumbs.db
 script-mkdir.sh
 script-touch.sh
 
+# Dependencies
+node_modules/
+
+# Production build
+dist/
+
+# Scripts
+scripts/
+
 # Editors
 .vscode/
 .idea/
 
-# Temporary files
+# Logs
 *.log
-*.tmp
-
-# Dependencies
-node_modules/
+npm-debug.log*

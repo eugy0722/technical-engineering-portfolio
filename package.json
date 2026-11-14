@@ -1,0 +1,14 @@
+{
+  "name": "technical-engineering-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bilingual professional portfolio of Technical Engineering by Eugênio Kaxinga.",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3",
+    "html-minifier-terser": "^7.2.0",
+    "terser": "^5.36.0"
+  }
+}
