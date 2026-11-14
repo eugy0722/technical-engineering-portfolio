@@ -161,24 +161,6 @@
       "en": "Training in responsible prompt engineering and the use of artificial intelligence in business."
     }
   },
-    {
-    "id": "cisco-ccnp-enterprise-advanced-routing",
-    "category": "completed-training",
-    "status": "completed",
-    "featured": false,
-    "name": {
-      "pt": "CCNP Enterprise: Advanced Routing",
-      "en": "CCNP Enterprise: Advanced Routing"
-    },
-    "issuer": "Cisco Networking Academy",
-    "date": "2026-09-29",
-    "credentialId": null,
-    "verificationUrl": null,
-    "description": {
-      "pt": "Formação avançada em tecnologias e protocolos de encaminhamento para redes empresariais, alinhada com os conteúdos CCNP Enterprise.",
-      "en": "Advanced training in routing technologies and protocols for enterprise networks, aligned with CCNP Enterprise topics."
-    }
-  },
   {
     "id": "cisco-introduction-cybersecurity",
     "category": "completed-training",
